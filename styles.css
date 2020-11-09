@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0%;
+}
+.contenedor {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  position: absolute;
+  font-size: 17px;
+}
+aside {
+  background: rgb(105, 101, 101);
+  padding: 15px 35px;
+  color: white;
+  width: 35%;
+}
+section {
+  background: lightblue;
+  padding: 50px;
+  width: 100%;
+}
+.imagen-perfil {
+  display: flex;
+  margin-top: 20px;
+  justify-content: center;
+}
+img {
+  width: 180px;
+  border-radius: 150px;
+}
+.contenedor-secciones {
+  display: grid;
+  position: absolute;
+  bottom: 280px;
+}
+.contenedor-educacion {
+  position: absolute;
+  bottom: 80px;
+}
+.education-1 {
+  margin-bottom: 20px;
+}
+.section {
+  display: inline-flex;
+  margin-bottom: 20px;
+}
+.phone,
+.email,
+.address {
+  margin-left: 20px;
+}
+.icono-phone {
+  display: flex;
+  justify-content: center;
+}
+.contenedor-secciones i {
+  border: 1px solid white;
+  padding: 5px;
+}
+h1 {
+  font-size: 45px;
+}
+.name h3 {
+  margin-top: 10px;
+}
+.work-experiencia {
+  position: absolute;
+  bottom: 0;
+  margin-right: 50px;
+  line-height: 1.5;
+}
+.work-experiencia h2 {
+  padding: 20px 0px;
+  border-bottom: 1px solid black;
+}
+.experiencia-1 {
+  display: flex;
+  margin: 20px 0px;
+}
+
+ul li {
+  margin-left: 20px;
+  color: gray;
+}
+.mensaje-centro {
+  display: flex;
+  position: absolute;
+  width: 80%;
+  background: white;
+  bottom: 520px;
+  left: 190px;
+  border: 2px solid black;
+}
+.mensaje-centro p {
+  margin: 35px;
+  line-height: 1.5;
+}
+.mensaje-centro p span {
+  font-weight: bold;
+}
